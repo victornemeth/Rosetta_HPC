@@ -107,7 +107,8 @@ python /usr/local/tools/protein_tools/scripts/clean_pdb.py 8BRB A
 /usr/local/bin/rosetta_scripts.cxx11threadmpiserializationtensorflowtorch.linuxgccrelease \
 -s 8BRB_A_relax_0001.pdb \
 -parser:protocol best_mutations.xml \
--beta-out:file:score_only best_mutations.sc
+-beta \
+-out:file:score_only best_mutations.sc
 ```
 
 7.2
